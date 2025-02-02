@@ -1,5 +1,6 @@
 # dotfiles
 Various dotfiles for nvim,aerospace,sketchybar,wezterm
+![image](https://github.com/user-attachments/assets/e00cd733-6146-4a9f-b886-46a31b66b602)
 ![new1](https://github.com/user-attachments/assets/58b0e4eb-f51f-4e1a-a072-581032255b6b)
 ![new8](https://github.com/user-attachments/assets/3e1e9030-7cfb-452b-adec-610cfbec4082)
 ![new7](https://github.com/user-attachments/assets/b09bf730-2046-4f29-8d85-425d5b2720d2)
