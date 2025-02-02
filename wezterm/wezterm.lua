@@ -5,7 +5,7 @@ local config = wezterm.config_builder()
 
 config.color_scheme = "Catppuccin Mocha"
 config.colors = {
-	background = "black",
+	background = "#24273a",
 }
 
 config.font = wezterm.font("JetBrainsMono Nerd Font")
