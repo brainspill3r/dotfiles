@@ -1,7 +1,7 @@
 return {
 	{
 		"williamboman/mason.nvim",
-    lazy = false,
+		lazy = false,
 		config = function()
 			require("mason").setup()
 		end,
@@ -9,8 +9,9 @@ return {
 	{
 		"williamboman/mason-lspconfig.nvim",
 		lazy = false,
-    opts = { auto_install = true,
-    },
+		opts = {
+			auto_install = true,
+		},
 	},
 	{
 		"neovim/nvim-lspconfig",
@@ -18,8 +19,9 @@ return {
 			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({})
 			lspconfig.ts_ls.setup({})
-      lspconfig.html.setup({})
-
+			lspconfig.html.setup({})
+			lspconfig.pyright.setup({})
+      lspconfig.gopls.setup({})
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
